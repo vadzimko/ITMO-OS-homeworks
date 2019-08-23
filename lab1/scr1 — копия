@@ -1,0 +1,19 @@
+#!/bin/bash
+
+res=''
+str=''
+while [[ true ]]
+do
+	read str
+	if [[ $str == 'q' ]]; then
+		break;
+	fi
+
+	for ((i = 0 ; i < $1 ; i++ )); do
+		res="$res$str "
+	done
+	res="$res\n"
+done
+
+echo -e $res
+

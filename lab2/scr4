@@ -1,0 +1,4 @@
+#!/bin/bash
+dir=/Users/v.badyaev/Downloads/os/lab2/*
+
+grep -r -h -s "^#!/[a-zA-Z0-9./\s]" $dir | sort -n | uniq -c | sort -n -k 1 | tail -1 | awk '{printf("%s\n",$2)}' | sed "s/^#!//"

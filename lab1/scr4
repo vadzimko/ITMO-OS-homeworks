@@ -1,0 +1,12 @@
+#!/bin/bash
+
+i=0;
+num=1;
+while [[ $((num%2)) -ne 0 ]]
+do
+	i=$((i+1))
+	read num
+done
+
+echo $i
+

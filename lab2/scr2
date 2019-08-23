@@ -1,0 +1,12 @@
+#!/bin/bash
+
+temp_file=temp/full.log
+target_file=/var/log/Xorg.0.log
+
+warning="\(WW\)"
+information="\(II\)"
+
+grep -E $warning $target_file | sed "s/$warning/Warning: /" > $temp_file
+grep -E $information $target_file | sed "s/$information/Information: /" >> $temp_file
+
+cat $temp_file

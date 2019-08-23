@@ -1,0 +1,3 @@
+ACPI /var/log/fake.log /var/log/install.log input.txt
+ACPI mister cot
+ACPI 2019-1-1 /Users/v.badyaev/Downloads/lab2/scr1.sc /Users/v.badyaev/Downloads/lab2/scr2

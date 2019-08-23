@@ -1,0 +1,3 @@
+#!/bin/bash
+
+man bash | grep -E -o "[a-zA-Z]{4,}" | sort -n | uniq -c | sort -n -k 1 | tail -3

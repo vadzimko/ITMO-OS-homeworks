@@ -1,0 +1,6 @@
+#!/bin/bash
+
+temp_file=temp/emails.lst
+mail_reg="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+
+grep -E -h -r -s -o $mail_reg /etc | awk '{printf("%s, ",$1)}' | sed 's/, *$//' > $temp_file

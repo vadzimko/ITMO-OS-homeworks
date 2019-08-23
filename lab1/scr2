@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ $1 > $2 ]]
+	then max1=$1
+	else max1=$2
+fi
+
+if [[ $3 > $max1 ]]
+	then echo $3
+	else echo $max1
+fi

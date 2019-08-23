@@ -1,0 +1,8 @@
+#!/bin/bash
+
+temp_file=temp/output.txt
+user_name=v.badyaev
+
+ps -u $user_name | awk '{printf("%s:%s\n", $2, $5)}' | tail -n +2 > $temp_file
+wc -l $temp_file | awk '{printf("%s\n"), $1}'
+cat $temp_file

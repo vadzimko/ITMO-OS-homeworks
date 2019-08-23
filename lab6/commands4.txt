@@ -1,0 +1,12 @@
+REM driverquery /FO TABLE > driverquery.txt
+break > drivers.txt
+for /f "tokens=1" %%a in ('driverquery /FO TABLE') do (
+   if not "%%a" == "============" ( 
+		if not "%%a" == "Module" (
+			echo %%a >> drivers.txt
+		)
+	)
+)
+pausesort drivers.txt /R > sort.txt
+pausecopy .\task4*.bat commands4.txt
+pause

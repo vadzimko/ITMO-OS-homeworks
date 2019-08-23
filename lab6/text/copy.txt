@@ -1,0 +1,26 @@
+list disk > log.txtAvailable Physical Memory: 1,227 MB
+Total Physical Memory:     3,992 MB
+ver > ver.txt
+systeminfo | findstr "Available.Physical.Memory" > systeminfo.txt
+systeminfo | findstr "Total.Physical.Memory" >> systeminfo.txt
+diskpart /s C:\LAB6\diskscript.txt > C:\LAB6\diskpart.txt
+pausemd TEST
+copy .\ .\TEST
+pause 
+copy .\ .\copy.txt
+pause
+Microsoft Windows [Version 6.3.9600]
+list disk > log.txtAvailable Physical Memory: 1,227 MB
+Total Physical Memory:     3,992 MB
+ver > ver.txt
+systeminfo | findstr "Available.Physical.Memory" > systeminfo.txt
+systeminfo | findstr "Total.Physical.Memory" >> systeminfo.txt
+diskpart /s C:\LAB6\diskscript.txt > C:\LAB6\diskpart.txt
+pausemd TEST
+copy .\ .\TEST
+pause 
+copy .\ .\copy.txt
+pausecopy .\*.bat commands.txt
+pause
+Microsoft Windows [Version 6.3.9600]
+

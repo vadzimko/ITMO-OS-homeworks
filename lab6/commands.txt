@@ -1,0 +1,10 @@
+ver > ver.txt
+systeminfo | findstr "Available.Physical.Memory" > systeminfo.txt
+systeminfo | findstr "Total.Physical.Memory" >> systeminfo.txt
+wmic LOGICALDISK GET DeviceId, VolumeName, Description, Size > wmic.txt
+pausemd TEST
+copy .\ .\TEST
+pause 
+copy .\ .\copy.txt
+pausecopy .\task1*.bat commands.txt
+pause

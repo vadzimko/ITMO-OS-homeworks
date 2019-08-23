@@ -1,0 +1,40 @@
+New backup directory has been created "Backup-2019-05-15"
+/Users/v.badyaev/Downloads/os/lab5/source/kek
+/Users/v.badyaev/Downloads/os/lab5/source/test
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file kek found. Previous version has been renamed to kek.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New version of file test found. Previous version has been renamed to test.2019-05-15
+New backup directory has been created "Backup-2019-05-22"
+/Users/v.badyaev/Downloads/os/lab5/source/kek
+/Users/v.badyaev/Downloads/os/lab5/source/test
+New version of file kek found. Previous version has been renamed to kek.2019-05-22
